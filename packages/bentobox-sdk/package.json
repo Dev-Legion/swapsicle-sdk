@@ -1,0 +1,33 @@
+{
+  "name": "@sushiswap/bentobox-sdk",
+  "version": "1.0.0-canary.62",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "module": "dist/bentobox-sdk.esm.js",
+  "repository": {
+    "url": "sushiswap/sdk",
+    "directory": "packages/bentobox-sdk"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "lint": "tsdx lint src test",
+    "build": "tsdx build",
+    "watch": "tsdx watch",
+    "test": "tsdx test --passWithNoTests",
+    "prepublishOnly": "tsdx build"
+  },
+  "dependencies": {
+    "@sushiswap/core-sdk": "1.0.0-canary.77"
+  },
+  "devDependencies": {
+    "tsdx": "^0.14.1"
+  },
+  "gitHead": "b3505f624dbb1494196443858c8ab04aa99499ac"
+}
