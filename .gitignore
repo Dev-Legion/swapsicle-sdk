@@ -1,1 +1,15 @@
 /node_modules
+/packages/core-sdk/node_modules
+/packages/core-sdk/dist
+/packages/bentobox-sdk/node_modules
+/packages/bentobox-sdk/dist
+/packages/kashi-sdk/node_modules
+/packages/kashi-sdk/dist
+/packages/limit-order-sdk/node_modules
+/packages/limit-order-sdk/dist
+/packages/miso-sdk/node_modules
+/packages/miso-sdk/dist
+/packages/tines/node_modules
+/packages/tines/dist
+/packages/trident-sdk/node_modules
+/packages/trident-sdk/dist
