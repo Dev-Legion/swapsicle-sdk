@@ -26,7 +26,7 @@ export const USDC: TokenMap = {
 export const USD: TokenMap = {
   ...USDC,
   [ChainId.CELO]: new Token(ChainId.CELO, USD_ADDRESS[ChainId.CELO], 18, 'cUSD', 'Celo Dollar'),
-  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, USD_ADDRESS[ChainId.AVALANCHE], 18, 'USDC', 'USD Coin'),
+  // [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, USD_ADDRESS[ChainId.AVALANCHE], 18, 'USDC', 'USD Coin'),
 }
 
 export const WETH9: TokenMap = {
