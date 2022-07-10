@@ -1,4 +1,4 @@
-import _Big, { RoundingMode } from 'big.js'
+import _Big from 'big.js'
 
 import { BigintIsh } from '../types'
 import JSBI from 'jsbi'
@@ -11,6 +11,13 @@ const Decimal = toFormat(_Decimal)
 const Big = toFormat(_Big)
 
 Big.strict = true
+
+enum RoundingMode {
+  RoundDown = 0,
+  RoundHalfUp = 1,
+  RoundHalfEven = 2,
+  RoundUp = 3,
+}
 
 const toSignificantRounding = {
   [Rounding.ROUND_DOWN]: Decimal.ROUND_DOWN,

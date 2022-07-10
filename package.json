@@ -11,9 +11,13 @@
   },
   "devDependencies": {
     "@sushiswap/prettier-config": "^0.1.0",
+    "@types/big.js": "^6.1.0",
     "@types/node": "^16.9.1",
+    "decimal.js-light": "^2.5.0",
+    "jsbi": "^4.1.0",
     "lerna": "^4.0.0",
-    "prettier": "^2.4.0"
+    "prettier": "^2.4.0",
+    "tiny-invariant": "^1.1.0"
   },
   "engines": {
     "node": ">=12.0.0"
